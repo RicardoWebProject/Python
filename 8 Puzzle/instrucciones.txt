@@ -1,0 +1,20 @@
+La resolución del 8 Puzzle se realiza a partir del algoritmo de búsqueda A*.
+
+Este algoritmo A* es un algoritmo de búsqueda informada en grafos, guiado por una función heurística.
+Utiliza una función de evaluación para reconocer el camino más corto y eficiente para alcanzar la meta definida.
+
+Para poder ejecutar el programa/fichero escrito en Python, asegúrese de tener instalado Python 3 (este mismo fue implementado en Python 3.8.2),
+y correrlo en una consola o línea de comandos.
+
+Para ejecutarlo deberá ubicarse en el directorio donde se encuentra el fichero '8Puzzle.py' y ejecutar en línea de comandos:
+
+    python3 8Puzzle.py --startrow 1 2 3 8 0 5 7 4 6 --goalrow 1 2 3 8 0 4 7 6 5
+
+En donde:
+    --startrow -> es el argumento que define el estado inicial (o tabla inicial) del puzzle a resolver. Deberá escribirlo fila por fila (de 3 en 3), separado por espacios.
+    --goaltrow -> es el argumento que define la meta (el resultado en tabla que se desea)
+    python3  -> Hace referencia al intérprete de python que utilizará para ejecutar el fichero. Asegúrese de tenerlo instalado.
+    8Puzzle.py -> Es el nombre del fichero que desea ejecutar.
+
+* Como dato adicional, menciono que el resultado se mostrará desde abajo hacia arriba.
+    Es decir, se mostrará desde la tabla meta hacia la tabla de inicio, mostrando además los movimientos que se hicieron.
